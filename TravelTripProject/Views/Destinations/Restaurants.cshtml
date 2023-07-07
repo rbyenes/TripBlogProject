@@ -1,0 +1,128 @@
+﻿
+@{
+    ViewBag.Title = "Restaurants";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<h2 style="width: 55%; margin: 0 auto;">Restaurants</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Most Popular Restaurants</title>
+    <style>
+        .restaurant-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .restaurant-card-item {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+            .restaurant-card-item img {
+                width: 100%;
+                height: 171px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+
+            .restaurant-card-item h3 {
+                margin: 0;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .restaurant-card-item p {
+                margin: 10px 0;
+                font-size: 14px;
+                line-height: 1.5;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="restaurant-card">
+        
+
+        <div class="restaurant-card-item">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/an-inside-view-of-the-world-class-danish-restaurant-noma-is-news-photo-1673279887.jpg" alt="Noma">
+            <h3>Noma</h3>
+            <p>Copenhagen, Denmark</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://www.telegraph.co.uk/content/dam/food-and-drink/2018/06/20/166957213_AFP_ITALY-GASTRONOMY-RESTAURANT-LIFESTYLE_trans_NvBQzQNjv4BqpiVx42joSuAkZ0bE9ijUnGH28ZiNHzwg9svuZLxrn1U.jpg" alt="Osteria">
+            <h3>Osteria Francescana</h3>
+            <p>Modena, Italy</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://media.cntraveler.com/photos/5a8c8644ab279b584685b296/16:9/w_2560,c_limit/El-Celler-de-Can-Roca_G4HH5F.jpg" alt="El Celler de Can Roca">
+            <h3>El Celler de Can Roca </h3>
+            <p>Girona, Spain</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://therantingpanda.files.wordpress.com/2016/10/img_0283e.jpg" alt="Eleven Madison">
+            <h3>Eleven Madison Park</h3>
+            <p>New York City, USA</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/190625170055-mirazur-dining-room-night-nicolas-lobbestael.jpg?q=w_4428,h_2491,x_0,y_0,c_fill" alt="Mugaritz">
+            <h3>Mugaritz</h3>
+            <p>San Sebastián, Spain</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://media.cntraveler.com/photos/57600d13ba256ed2737af5f0/16:9/w_2560,c_limit/mugaritz-51C3380C.jpg" alt="Mirazur">
+            <h3>Mirazur</h3>
+            <p>Menton, France</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://images.adsttc.com/media/images/5c5d/c1fc/284d/d162/8e00/0009/large_jpg/estudioraffreyre_central2.jpg?1549648370" alt="Central">
+            <h3>Central</h3>
+            <p>Lima, Peru</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://stonejournal.s3.eu-west-2.amazonaws.com/media/2018/09/21193521/Gaggan_Detail_1.jpg" alt="Gaggan">
+            <h3>Gaggan</h3>
+            <p>Bangkok, Thailand</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://images.squarespace-cdn.com/content/v1/6091adceeec0df416e2b512e/1620245226427-NEB5P6BD9JN6EGUSLBVB/20160429_gilsonAlinea_0006.jpg" alt="Alinea">
+            <h3>Alinea</h3>
+            <p>Chicago, USA</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-c/2560x500/15/a4/e0/9b/caption.jpg" alt="D.O.M.">
+            <h3>D.O.M.</h3>
+            <p>São Paulo, Brazil</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://media.houseandgarden.co.uk/photos/62616da6a930117841d84bc9/3:2/w_5472,h_3648,c_limit/_The_Ledbury_These_White_Walls_Nacho_Rivera_Photographer_London-3.jpg" alt="Ledbury">
+            <h3>The Ledbury</h3>
+            <p>London, UK</p>
+        </div>
+
+        <div class="restaurant-card-item">
+            <img src="https://static01.nyt.com/images/2017/01/25/dining/25PUJOL1/25PUJOL1-superJumbo.jpg" alt="Pujol">
+            <h3>Pujol</h3>
+            <p>Mexico City, Mexico</p>
+        </div>
+    </div>
+</body>
+</html>

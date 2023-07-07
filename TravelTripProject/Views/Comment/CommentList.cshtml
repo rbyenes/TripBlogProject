@@ -1,0 +1,31 @@
+﻿@model List<TravelTripProject.Models.Entity.Comments>
+@{
+    ViewBag.Title = "CommentList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Comment List</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>User Name</th>
+        <th>Email</th>
+        <th>Comment</th>
+        <th>Blog</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@item.ID</td>
+        <td>@item.UserName</td>
+        <td>@item.Email</td>
+        <td>@item.Comment</td>
+        <td>@item.Blog.Title</td>
+        <td><a href="/Comment/DeleteComment/@item.ID" class="btn btn-danger">Delete</a></td>
+        <td><a href="/Comment/UpdateComment/@item.ID" class="btn btn-warning">Update</a></td>
+    </tr>
+    }
+</table>

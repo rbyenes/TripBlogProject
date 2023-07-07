@@ -1,0 +1,63 @@
+﻿@model List<TravelTripProject.Models.Entity.Address>
+<style>
+    .content-form-address {
+        width: 50%;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+        .content-form-address div {
+            margin-bottom: 10px;
+        }
+
+        .content-form-address label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+        }
+
+        .content-form-address span {
+            display: inline-block;
+            width: calc(100% - 120px);
+            word-wrap: break-word;
+        }
+</style>
+
+@foreach (var item in Model)
+{
+    <div class="content-form-address">
+        <div style="display:none">
+            <label>ID:</label>
+            <span>@item.ID</span>
+        </div>
+        <div>
+          
+            <p style="font-weight: bold; width: 50%; margin: 0 auto;">@item.Title</p>
+        </div>
+        <div>
+            
+            <p style="font-weight: bold; width: 50%; margin: 0 auto; ">@item.Description</p>
+        </div>
+        <div>
+            <label>Address:</label>
+            <span>@item.Addres</span>
+        </div>
+        <div>
+            <label>Email:</label>
+            <span>@item.Email</span>
+        </div>
+        <div>
+            <label>Phone:</label>
+            <span>@item.Phone</span>
+        </div>
+        <div>
+            <label>Location:</label>
+            <span>@item.Location</span>
+        </div>
+    </div>
+}
+
+

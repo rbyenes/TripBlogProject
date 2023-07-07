@@ -1,0 +1,21 @@
+﻿@model TravelTripProject.Models.Entity.About
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Update About</h2>
+
+@using (Html.BeginForm("UpdateAbout", "About", FormMethod.Post))
+{
+    @Html.LabelFor(x => x.ID)
+    @Html.TextBoxFor(x => x.ID, new { @class = "form-control", @readonly = "readnly" })
+    <br />
+    @Html.LabelFor(x => x.PhotoUrl)
+    @Html.TextBoxFor(x => x.PhotoUrl, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.Description)
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Update About</button>
+}

@@ -1,0 +1,14 @@
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\obj\Debug\TravelTripProject.DataAccess.csproj.AssemblyReference.cache
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\obj\Debug\TravelTripProject.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\bin\Debug\TravelTripProject.DataAccess.dll.config
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\bin\Debug\TravelTripProject.DataAccess.dll
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\bin\Debug\TravelTripProject.DataAccess.pdb
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\bin\Debug\TravelTripProject.Entities.dll
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\bin\Debug\TravelTripProject.Entities.pdb
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\obj\Debug\TravelTripProject.DataAccess.csproj.CopyComplete
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\obj\Debug\TravelTripProject.DataAccess.dll
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.DataAccess\obj\Debug\TravelTripProject.DataAccess.pdb

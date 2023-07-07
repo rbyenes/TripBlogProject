@@ -1,0 +1,6 @@
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.Entities\obj\Debug\TravelTripProject.Entities.csproj.AssemblyReference.cache
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.Entities\obj\Debug\TravelTripProject.Entities.csproj.CoreCompileInputs.cache
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.Entities\bin\Debug\TravelTripProject.Entities.dll
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.Entities\bin\Debug\TravelTripProject.Entities.pdb
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.Entities\obj\Debug\TravelTripProject.Entities.dll
+C:\Users\heyen\source\repos\TravelTripProject\TravelTripProject.Entities\obj\Debug\TravelTripProject.Entities.pdb
